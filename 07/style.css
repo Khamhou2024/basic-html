@@ -1,0 +1,44 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+
+}
+.container .flexbox{
+    border:1px solid red;
+    height: inherit;
+}
+.container .box-2{
+    height: 300px;
+}
+.section{
+    position: relative;
+    border: 2px solid red;
+    top: 20px;
+    height: 400px;
+}
+.section .tel img{
+    width: 100%;
+}
+.section .tel{
+    position: fixed;
+    width: 80px;
+    right: 1rem;
+    top: 60vh;
+}
+.section .Whatsapp img {
+    width: 100%;
+}
+.section .Whatsapp{
+    position: fixed;
+        width: 80px;
+        right: 1rem;
+        top: 75vh;
+}
+.section .line img {
+    width: 100%;
+}
+.section .line{
+    width: 80px;
+    position: absolute;
+}

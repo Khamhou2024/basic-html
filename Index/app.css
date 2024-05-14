@@ -1,0 +1,45 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+.container .box{
+    
+    border: 1px solid red;
+    height: inherit;
+}
+.container .box-2{
+    height: 400px;
+}
+.contact .tel img{
+    width:100% ;
+}
+.contact .tel{
+    position: fixed;
+    top: 73vh;
+    width: 80px;
+    right: 2.5rem;
+}
+.contact .Whatsapp img{
+    width: 100%;
+}
+.contact .Whatsapp{
+    position: fixed;
+    top: 90vh;
+    width: 80px;
+    right: 2.5rem;
+
+}
+.contact .line img{
+    width: 100%;
+}
+.contact .line{
+    position: relative;
+    width: 80px;
+    
+}
+.contact {
+    border: 1px solid blue;
+    height: inherit;
+    height: 50vh;
+}
