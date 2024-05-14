@@ -1,2 +1,3 @@
-git add .              # for select  add all files
-git commit  -m "some text"  # for prepare  file save to local  directory
+git add . # for select add all files
+git commit -m "some text" # for prepare file save to local directory
+git push -u origin main // git push
